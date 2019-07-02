@@ -1,0 +1,9 @@
+{
+    "port" : 5000,
+    "mongoDB" : {
+        "host" : "localhost",
+        "port" : "27017",
+        "database": "feedsystemDB"
+    },
+    "ENV" : "dev"
+}
