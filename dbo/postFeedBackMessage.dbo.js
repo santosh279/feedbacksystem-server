@@ -1,7 +1,7 @@
 let FeedBackSchema = require("../models/feedback.model");
 exports.postFeedBackMessageDBO = (data, cb) => {
   //   let response = JSON.stringify(data);
-  console.log("inside");
+  // console.log("inside");
   let Save = new FeedBackSchema(data);
   Save.save((err, resp) => {
     if (!err) {
